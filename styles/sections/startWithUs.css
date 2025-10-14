@@ -1,0 +1,35 @@
+.startWithUs {
+  margin-top: 72px;
+
+  .textSection {
+    .headerText {
+      max-width: 600px;
+      font-size: 48px;
+      margin: auto;
+      text-align: center;
+      text-wrap: balance;
+    }
+
+    .desctiption {
+      font-size: 16px;
+      max-width: 650px;
+      margin: auto;
+      margin-top: 24px;
+      text-wrap: balance;
+      text-align: center;
+    }
+
+    .btn_stroke {
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+
+  .imgSection {
+    margin-top: 60px;
+
+    .mac {
+      width: 100%;
+    }
+  }
+}

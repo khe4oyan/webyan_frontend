@@ -1,0 +1,7 @@
+/* general */
+@import url('./general/colors.css');
+@import url('./general/default.css');
+
+/* sections */
+@import url("./sections/header.css");
+@import url("./sections/startWithUs.css");
