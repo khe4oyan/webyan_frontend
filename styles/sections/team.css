@@ -1,0 +1,43 @@
+.team {
+  margin-top: 80px;
+  
+  .sectionHeaderText {
+    font-size: 40px;
+    text-align: center;
+    color: var(--primary_color);
+  }
+
+  .teamMembers {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+
+    .member {
+      width: 100%;
+      text-decoration: none;
+      
+      /* .main_image {} */
+      .info {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 55px;
+
+        .personInfo {
+          .name {
+            color: var(--primary_color);
+            font-weight: 700;
+          }
+    
+          .position {
+            font-size: 16px;
+            color: var(--gray); 
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
