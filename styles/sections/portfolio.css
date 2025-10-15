@@ -3,7 +3,7 @@
 
   .sectionHeaderText {
     text-align: center;
-    font-optical-sizing: 40px;
+    font-size: 40px;
     color: var(--primary_color);
   }
 
