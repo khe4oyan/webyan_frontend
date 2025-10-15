@@ -1,0 +1,30 @@
+.footer {
+  margin-top: 80px;
+  background: var(--black);
+  color: var(--white);
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0;
+
+    .socialLinks{
+      display: flex;
+      gap: 8px;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        --size: 40px;
+        width: var(--size);
+        height: var(--size);
+        border-radius: 50%;
+        background-color: var(--white);
+
+        /* .img {} */
+      }
+    }
+  }
+}
