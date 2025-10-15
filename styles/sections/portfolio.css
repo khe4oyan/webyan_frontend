@@ -1,0 +1,61 @@
+.portfolio {
+  margin-top: 80px;
+
+  .sectionHeaderText {
+    text-align: center;
+    font-optical-sizing: 40px;
+    color: var(--primary_color);
+  }
+
+  .description {
+    margin-top: 8px;
+    font-size: 18px;
+    color: var(--primary_color)
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 28px;
+
+    .project {
+      text-decoration: none;
+        color: var(--grayDark);
+
+      .imgSection{
+        position: relative;
+
+        .project_preview {
+          width: 463px;
+          height: 355px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+
+        .tags {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          display: flex;
+          gap: 10px;
+
+          .tag {
+            background: var(--white);
+            padding: 14px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .projectNameContainer {
+        margin-top: 28px;
+
+        .projectName {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
