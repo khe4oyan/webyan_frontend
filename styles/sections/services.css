@@ -1,0 +1,79 @@
+.services {
+  margin-top: 80px;
+
+  .sectionHeaderText {
+    font-size: 40px;
+    text-align: center;
+    color: var(--primary_color);
+  }
+
+  .cards {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .card {
+      border: 1px solid var(--mediumGray);
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+
+      .proffesion_icon_container {
+        background: var(--primary_color);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .proffesion_icon {
+          width: 193px;
+          height: 193px;
+          padding: 40px;
+        }
+      }
+
+      .info {
+        width: 100%;
+
+        .headerText {
+          color: var(--black);
+          font-size: 32px;
+        }
+
+        .description {
+          color: var(--gray);
+          font-size: 18px;
+          margin-top: 14px;
+        }
+
+        .tags {
+          margin-top: 20px;
+          display: flex;
+          gap: 12px;
+
+          .tag {
+            padding: 6px 24px;
+            background: var(--grayOpacity);
+            border-radius: 6px;
+          }
+        }
+      }
+
+      .actions {
+        display: flex;
+        align-items: flex-end;
+
+        .actionButton {
+          background: var(--black);
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
