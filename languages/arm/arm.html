@@ -1,11 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../../styles/general.css">
+  <title>WEB YAN</title>
 </head>
+
 <body>
-  <h1>Armenian Version</h1>
+  <header class="header">
+    <div class="container">
+      <!-- logo -->
+      <div>
+        <div>LOGO</div>
+      </div>
+
+      <!-- navigation -->
+      <nav class="navigation">
+        <a href="#about">Մեր մասին</a>
+        <a href="#priceList">Փաթեթներ</a>
+        <a href="#contactUs">Կապ մեզ հետ</a>
+      </nav>
+
+      <!-- button and language -->
+      <div class="actions">
+        <div>
+          <button class="btn_secondary">Իմանալ ավելին</button>
+        </div>
+        <div class="languageContainer">
+          <button class="languageSelectButton">
+            <img src="../../assets/svg/AM.svg" alt="flag_arm">
+            <img src="../../assets/svg/arrow-down.svg" alt="flag_arm">
+          </button>
+          <div class="otherLanguages hide">
+            <a href="../rus/rus.html" class="flag">
+              <img src="../../assets/svg/RU.svg" alt="flag_rus" width="32" height="32">
+              <p>РУС</p>
+            </a>
+            <a href="../../index.html" class="flag">
+              <img src="../../assets/svg/EN.svg" alt="flag_eng" width="32" height="32">
+              <p>ENG</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container startWithUs">
+    <div class="textSection">
+      <h1 class="headerText">Սկսիր քո առցանց հաջողությունը մեզ հետ</h1>
+      <p class="desctiption">
+        Մենք ստեղծում ենք արագ, ժամանակակից եւ հարմարեցված կայքեր Ձեր բիզնեսի զարգացման համար, որոնք օգնում են բիզնեսին աճել և պահպանել մրցունակությունը։
+      </p>
+      <button class="btn_stroke">
+        Սկսել հիմա
+        <img src="../../assets/svg/arrow-right.svg" alt="arrow-right.svg" width="20">
+      </button>
+    </div>
+    <div class="imgSection">
+      <img src="../../assets/img/mac.png" alt="mac" class="mac">
+    </div>
+  </section>
+
+  <section class="container about" id="about">
+    <h2 class="sectionHeaderText">Մեր մասին</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="../../assets/svg/pc_phone.svg" alt="icon" width="56" height="56">
+        <p class="title">Թվային լուծումներ</p>
+        <p class="description">
+          Մենք ստեղծում ենք նորարարական թվային ապրանքներ՝ վեբ, բջջային և ամպային հարթակների համար, որոնք ուժեղացնում են բիզնեսի աճը։
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/heart.svg" alt="icon" width="56" height="56">
+        <p class="title">Մեր արժեքները</p>
+        <p class="description">
+          Մենք մոտենում ենք յուրաքանչյուր նախագծի մեծ պատասխանատվությամբ: Կառուցում ենք վստահություն և համագործակցություն՝ հիմնվելով ազնվության և թիմային ոգու վրա։
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/magic-star.svg" alt="icon" width="56" height="56">
+        <p class="title">Բարձր որակ</p>
+        <p class="description">
+          Աշխատում ենք մանրակրկիտ, ուշադրությամբ յուրաքանչյուր մանրուքի նկատմամբ՝ ապահովելով կայուն և որակյալ արդյունք։
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/setting.svg" alt="icon" width="56" height="56">
+        <p class="title">Աջակցություն</p>
+        <p class="description">
+          Մեր հաճախորդները երբեք մենակ չեն մնում՝ տրամադրում ենք մշտական տեխնիկական աջակցություն։
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container team">
+    <h2 class="sectionHeaderText">Մեր թիմը</h2>
+
+    <div class="teamMembers">
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Meri Torosyan</p>
+            <p class="position">UI/UX Designer</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Shushan Habeshyan</p>
+            <p class="position">SMM Specialist</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Գրիգոր Սարուխանյան</p>
+            <p class="position">Backend Developer</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Suren Khechoyan</p>
+            <p class="position">Frontend Developer</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="container services">
+    <h2 class="sectionHeaderText">Մեր առաջարկները</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon" src="../../assets/svg/pc_phone_large.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">UX/UI Դիզայն</h3>
+          <p class="description">
+            Մենք ստեղծում ենք ինտուիտիվ և գեղագիտական ինտերֆեյսներ, որոնք կենտրոնացած են օգտատիրոջ փորձի վրա և համահունչ են ժամանակակից դիզայնի միտումներին՝ մինչև վերջնական վիզուալներ։
+          </p>
+          <div class="tags">
+            <p class="tag">web</p>
+            <p class="tag">app</p>
+            <p class="tag">SaaS</p>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn_primary actionButton">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4299 5.92999L20.4999 12L14.4299 18.07" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon" src="../../assets/svg/pc_phone_large.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">Ծրագրավորում</h3>
+          <p class="description">
+            Մենք ստեղծում ենք արագ, մասշտաբավորվող և անվտանգ վեբ հավելվածներ՝ օգտագործելով ժամանակակից ֆրեյմվորքեր և տեխնոլոգիաներ, հարմարեցված ձեր բիզնեսի կարիքներին։
+          </p>
+          <div class="tags">
+            <p class="tag">back-end</p>
+            <p class="tag">front-end</p>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn_primary actionButton">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4299 5.92999L20.4999 12L14.4299 18.07" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon" src="../../assets/svg/pc_phone_large.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">SEO և վերլուծություն</h3>
+          <p class="description">
+            Մենք օգնում ենք ձեր բիզնեսին զարգանալ առցանց՝ կիրառելով խելացի SEO ռազմավարություններ, տվյալների վրա հիմնված մարքեթինգ և ստեղծագործական թվային արշավներ, որոնք ապահովում են չափելի արդյունքներ։
+          </p>
+          <div class="tags">
+            <p class="tag">SEO</p>
+            <p class="tag">PPC</p>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn_primary actionButton">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4299 5.92999L20.4999 12L14.4299 18.07" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M3.5 12H20.33" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container portfolio">
+    <h2 class="sectionHeaderText">Մեր աշխատանքները</h2>
+    <p class="description">
+      Մեր թիմը ստեղծում է տպավորիչ, արդի և օգտատիրոջ համար դիզայններ, որոնք տեսանելի արդյունքներ են տալիս։
+    </p>
+
+    <div class="projects">
+
+      <a class="project" href="https://vanarent.am/" target="_blank">
+        <div class="imgSection">
+          <img src="../../assets/img/projectPreview_vanaRent.png" alt="project_preview" class="project_preview">
+          <div class="tags">
+            <div class="tag">UI/UX</div>
+          </div>
+        </div>
+        <div class="projectNameContainer">
+          <p class="projectName">Vana Rent Website Design</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="container priceList" id="priceList">
+    <h2 class="sectionHeaderText">Մեր Փաթեթները</h2>
+
+    <div class="priceContainer">
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Սկսնակ</h3>
+          <p class="description">Հարմար փոքր բիզնեսների և MVP-ների համար</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Մինչև 2 էջ կայք</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Հիմնական դիզայն և կառուցվածք</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Հիմնական SEO կարգավորումներ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Կապի ձևանմուշ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Անվճար փոփոխություն 1 անգամ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>1 պլատֆորմ (վեբ կամ մոբայլ)</p>
+          </div>
+        </div>
+        <button class="btn_primary">Ստանալ գնառաջարկ</button>
+      </div>
+
+      <div class="price price_secondary">
+        <div class="priceHeader">
+          <h3 class="headerText">Բիզնես</h3>
+          <p class="description">Հարմար միջին չափի ընկերությունների համար</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Մինչև 5 էջ դինամիկ կայք</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Ադմին վահանակ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Ձևավորված կոնտակտային էջ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Հարմարեցված լուծումներ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Անվճար փոփոխություն 1 անգամ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Հիմնական SEO կարգավորումներ</p>
+          </div>
+        </div>
+        <button class="btn_primary">Ստանալ գնառաջարկ</button>
+      </div>
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Պրեմիում</h3>
+          <p class="description">Անհատական լուծումներ խոշոր բիզնեսների համար</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Անհատական UI/UX լուծումներ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Հիմնական SEO կարգավորումներ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Վաճառքի ավտոմատացում </p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Վճարային համակարգի ինտեգրում</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Անվճար փոփոխություն 3 անգամ</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Բազմալեզու աջակցություն</p>
+          </div>
+        </div>
+        <button class="btn_primary">Ստանալ գնառաջարկ</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container feedBack">
+    <h2 class="headerText">Կապ մեզ հետ</h2>
+
+    <div class="content">
+      <div class="imageBox">
+        <img src="../.././assets/img/feedbackImg.png" alt="" class="image">
+      </div>
+
+      <form method="post" class="form">
+        <!-- Имя: только буквы, минимум 2 символа -->
+        <input type="text" name="name" placeholder="Անուն" required pattern="[A-Za-zԱ-Ֆա-ֆ]{2,}" title="Անուն պետք է պարունակի միայն տառեր և լինի առնվազն 2 նիշ։">
+
+        <!-- Фамилия: только буквы, минимум 3 символа -->
+        <input type="text" name="surname" placeholder="Ազգանուն" required pattern="[A-Za-zԱ-Ֆա-ֆ]{3,}" title="Ազգանուն պետք է պարունակի միայն տառեր և լինի առնվազն 3 նիշ։">
+
+        <!-- Телефон: только цифры, длина 8–12 -->
+        <input type="tel" name="phone" placeholder="Հեռախոսահամար" required pattern="^\+?[0-9]{8,12}$" title="Նշեք ճիշտ հեռախոսահամար (օր.՝ +37499123456 կամ 099123456)">
+
+        <!-- Email: встроенная проверка формата -->
+        <input type="email" name="email" placeholder="Էլ. Հասցե" required title="Նշեք ճիշտ էլ. հասցե (օր.՝ example@mail.com)">
+
+        <!-- Сообщение: минимум 10 символов -->
+        <textarea name="message" rows="15" placeholder="Հաղորդագրություն" required minlength="10" title="Հաղորդագրությունը պետք է պարունակի առնվազն 10 նիշ։"></textarea>
+
+        <button type="submit" class="btn_primary submit">Ուղարկել</button>
+        <p class="response"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="container preFooter">
+    <div class="content">
+      <div>
+        <img src="../../assets/img/phones.png" alt="phones" class="phones">
+      </div>
+      <div class="info">
+        <h3 class="headerText">Ապագայի վեբը ձեր ձեռքում</h3>
+        <p class="description">Արագ, ընդարձակելի և աչքի ընկնող կայքեր՝ ձեր տեսլականի համար</p>
+        <button class="btn_stroke button">
+          Սկսել հիմա
+          <img src="../../assets/svg/arrow-right.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <div class="content">
+      <div class="socialLinks">
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/facebook.svg" alt="facebook"></a>
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/Instagram.svg" alt="instagram"></a>
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/call.svg" alt="call"></a>
+      </div>
+      <div>
+        <p>©
+          <script>document.write(new Date().getFullYear())</script> Web Yan — Բոլոր իրավունքները պաշտպանված են
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
+
+<script src="../../js/languageSelector.js"></script>
+<script src="../../js/form.js"></script>
+
 </html>
