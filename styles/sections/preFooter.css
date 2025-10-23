@@ -1,7 +1,7 @@
 .preFooter {
   margin-top: 84px;
-  
-  .content{ 
+
+  .content {
     padding-top: 78px;
     border-radius: 16px;
     display: flex;
@@ -14,7 +14,7 @@
         font-weight: 500;
         color: var(--primary_color);
       }
-      
+
       .description {
         font-size: 16px;
         margin-top: 12px;
@@ -27,6 +27,15 @@
         background: none;
         margin-top: 17px;
       }
+    }
+  }
+}
+
+@media only screen and (width < 1440px) {
+  .preFooter {
+    .content {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

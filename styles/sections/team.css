@@ -1,6 +1,6 @@
 .team {
   margin-top: 80px;
-  
+
   .sectionHeaderText {
     font-size: 40px;
     text-align: center;
@@ -16,7 +16,7 @@
     .member {
       width: 100%;
       text-decoration: none;
-      
+
       /* .main_image {} */
       .info {
         margin-top: 20px;
@@ -30,14 +30,24 @@
             color: var(--primary_color);
             font-weight: 700;
           }
-    
+
           .position {
             font-size: 16px;
-            color: var(--gray); 
+            color: var(--gray);
             margin-top: 8px;
           }
         }
       }
+    }
+  }
+}
+
+
+@media only screen and (width < 1440px) {
+  .team {
+    .teamMembers {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

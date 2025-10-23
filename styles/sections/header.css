@@ -79,3 +79,10 @@
     }
   }
 }
+
+
+@media only screen and (width < 1440px) {
+  .header { 
+    
+  }
+}

@@ -27,12 +27,6 @@ button:hover {
   cursor: pointer;
 }
 
-.container {
-  max-width: 1440px;
-  padding: 0 60px;
-  margin: auto;
-}
-
 .hide {
   display: none;
 }
@@ -69,4 +63,18 @@ button:hover {
 .btn_stroke:hover {
   background: var(--primary_color);
   color: var(--white);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 60px;
+  margin: auto;
+}
+
+
+@media only screen and (width < 1440px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
 }

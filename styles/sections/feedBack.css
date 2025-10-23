@@ -31,13 +31,20 @@
       flex-direction: column;
       gap: 24px;
 
-      .submit {
-        
-      }
+      .submit {}
 
       textarea {
         resize: none;
       }
+    }
+  }
+}
+
+@media only screen and (width < 1440px) {
+  .feedBack {
+    .content {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

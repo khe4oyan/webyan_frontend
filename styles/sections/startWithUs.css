@@ -34,3 +34,36 @@
     }
   }
 }
+
+@media only screen and (width < 1440px) {
+  .startWithUs {
+    margin-top: 40px;
+
+    .textSection {
+      .headerText {
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        text-wrap: balance;
+        color: var(--primary_color);
+      }
+
+      .desctiption {
+        margin: auto;
+        margin-top: 8px;
+        text-wrap: balance;
+        text-align: center;
+      }
+    }
+
+    .imgSection {
+      margin-top: 60px;
+
+      .mac {
+        width: 100%;
+        aspect-ratio: 19/15;
+        border-radius: 16px;
+      }
+    }
+  }
+}
