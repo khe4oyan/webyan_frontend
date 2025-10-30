@@ -45,9 +45,20 @@
 
 @media only screen and (width < 1440px) {
   .team {
+    .sectionHeaderText {
+      font-size: 20px;
+      text-align: left;
+    }
+
     .teamMembers {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      scroll-snap-type: x mandatory;
+      overflow-y: scroll;
+
+      .member {
+        scroll-snap-align: start; 
+      }
     }
   }
 }
