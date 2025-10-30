@@ -9,7 +9,7 @@
     align-items: center;
     padding: 31px 0;
 
-    .socialLinks{
+    .socialLinks {
       display: flex;
       gap: 8px;
 
@@ -24,6 +24,42 @@
         background-color: var(--white);
 
         /* .img {} */
+      }
+    }
+  }
+}
+
+
+@media only screen and (width < 1440px) {
+  .footer {
+    margin-top: 80px;
+    background: var(--black);
+    color: var(--white);
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 31px 0;
+      text-align: right;
+
+      .socialLinks {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          --size: 40px;
+          width: var(--size);
+          height: var(--size);
+          border-radius: 50%;
+          background-color: var(--white);
+
+          /* .img {} */
+        }
       }
     }
   }
