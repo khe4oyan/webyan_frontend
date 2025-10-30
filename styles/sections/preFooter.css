@@ -33,9 +33,41 @@
 
 @media only screen and (width < 1440px) {
   .preFooter {
+    margin-top: 40px;
+
     .content {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
+      padding: 20px 7px;
+      border-radius: 16px;
+      gap: 90px;
+      background: var(--footerColor);
+
+      .phones {
+        width: 100%;
+        margin-top: 26px;
+      }
+
+      .info {
+        text-align: center;
+        .headerText {
+          font-size: 20px;
+        }
+
+        .description {
+          font-size: 16px;
+          margin-top: 12px;
+          color: var(--gray);
+        }
+
+        .button {
+          color: var(--gray);
+          border-color: var(--gray);
+          background: none;
+          margin: auto;
+          margin-top: 17px;
+        }
+      }
     }
   }
 }
