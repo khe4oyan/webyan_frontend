@@ -20,9 +20,9 @@
 
     .project {
       text-decoration: none;
-        color: var(--grayDark);
+      color: var(--grayDark);
 
-      .imgSection{
+      .imgSection {
         position: relative;
 
         .project_preview {
@@ -54,6 +54,59 @@
         .projectName {
           font-size: 24px;
           font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (width < 1440px) {
+  .portfolio {
+    margin-top: 40px;
+
+    .sectionHeaderText {
+      text-align: left;
+      font-size: 20px;
+      color: var(--primary_color);
+    }
+
+    .description {
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--gray)
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 14px;
+
+      .project {
+        max-width: 214px;
+        max-height: 250px;
+        text-decoration: none;
+
+        .imgSection {
+          position: static;
+
+          .project_preview {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+          }
+
+          .tags {
+            display: none;
+          }
+        }
+
+        .projectNameContainer {
+          margin-top: 10px;
+
+          .projectName {
+            font-size: 14px;
+            font-weight: 500;
+          }
         }
       }
     }
