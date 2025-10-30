@@ -17,11 +17,15 @@
       border: 1px solid var(--mediumGray);
       padding: 20px;
       border-radius: 20px;
-      display: flex;
-      justify-content: space-between;
-      gap: 24px;
+      gap: 10px;
+      display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "icon description"
+          "icon tags";
 
       .proffesion_icon_container {
+        grid-area: icon;
         background: var(--primary_color);
         border-radius: 14px;
         display: flex;
@@ -36,6 +40,7 @@
       }
 
       .info {
+        grid-area: description;
         width: 100%;
 
         .headerText {
@@ -48,30 +53,93 @@
           font-size: 18px;
           margin-top: 14px;
         }
+      }
+
+      .tags {
+        grid-area: tags;
+        margin-top: 20px;
+        display: flex;
+        gap: 12px;
+        align-items: center ;
+
+        .tag {
+          padding: 6px 24px;
+          background: var(--grayOpacity);
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (width < 1440px) {
+  .services {
+    margin-top: 40px;
+
+    .sectionHeaderText {
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .cards {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .card {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "icon description"
+          "tags tags";
+
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        gap: 8px;
+
+        .proffesion_icon_container {
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100px;
+          height: 100px;
+
+          .proffesion_icon {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+          }
+        }
+
+        .info {
+          width: 100%;
+
+          .headerText {
+            color: var(--grayDark);
+            font-size: 16px;
+          }
+
+          .description {
+            color: var(--gray);
+            font-size: 12px;
+            margin-top: 2px;
+          }
+        }
 
         .tags {
-          margin-top: 20px;
+          margin-top: 0px;
           display: flex;
-          gap: 12px;
+          gap: 4px;
 
           .tag {
             padding: 6px 24px;
             background: var(--grayOpacity);
             border-radius: 6px;
+            font-size: 14px;
           }
-        }
-      }
-
-      .actions {
-        display: flex;
-        align-items: flex-end;
-
-        .actionButton {
-          background: var(--black);
-          width: 44px;
-          height: 44px;
-          border-radius: 50%;
-          padding: 0;
         }
       }
     }
