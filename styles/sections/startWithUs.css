@@ -3,17 +3,14 @@
 
   .textSection {
     .headerText {
-      max-width: 600px;
       font-size: 48px;
       margin: auto;
       text-align: center;
-      text-wrap: balance;
       color: var(--primary_color);
     }
 
     .desctiption {
       font-size: 16px;
-      max-width: 650px;
       margin: auto;
       margin-top: 24px;
       text-wrap: balance;
