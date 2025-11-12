@@ -20,6 +20,7 @@ button {
   border: none;
   padding: 8px 16px;
   border-radius: 20px;
+  height: 40px;
   background: none;
   display: flex;
   align-items: center;
