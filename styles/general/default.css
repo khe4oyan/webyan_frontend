@@ -45,6 +45,7 @@ button:hover {
 .btn_primary:hover {
   background: var(--white);
   color: var(--primary_color);
+  box-shadow: 0 5px 10px #0005;
 }
 
 /* secondary */
