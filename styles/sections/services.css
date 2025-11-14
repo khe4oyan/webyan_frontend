@@ -38,6 +38,10 @@
           height: 193px;
           padding: 40px;
         }
+
+        .proffesion_icon_mobile {
+          display: none;
+        }
       }
 
       .info {
@@ -109,9 +113,14 @@
           height: 100px;
 
           .proffesion_icon {
+            display: none;
+          }
+
+          .proffesion_icon_mobile {
             width: 100%;
             height: 100%;
             padding: 20px;
+            display: initial;
           }
         }
 
