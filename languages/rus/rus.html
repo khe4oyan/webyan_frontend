@@ -1,14 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../../styles/general.css">
+  <title>WEB YAN</title>
 </head>
 
 <body>
-  RUSSIAN VERSION
+  <header class="header">
+    <div class="container">
+      <div>
+        <img src="../../assets/svg/logo.svg" alt="logo" class="logo">
+      </div>
+
+      <nav class="navigation">
+        <a href="#about"><span class="title">О нас</span> <img src="/assets/svg/people.svg" class="icon"></a>
+        <a href="#priceList"><span class="title">Пакеты</span> <img src="/assets/svg/chart.svg" class="icon"></a>
+        <a href="#contactUs"><span class="title">Связаться с нами</span> <img src="/assets/svg/call_white.svg" class="icon"></a>
+      </nav>
+
+      <div class="actions">
+        <div>
+          <button class="btn_secondary">Узнать больше</button>
+        </div>
+        <div class="languageContainer">
+          <button class="languageSelectButton">
+            <img src="../../assets/svg/RU.svg" alt="flag_arm" width="24" height="24">
+            <img src="../../assets/svg/arrow-down.svg" alt="flag_arm">
+          </button>
+
+          <div class="otherLanguages hide">
+            <a href="../arm/arm.html" class="flag">
+              <img src="../../assets/svg/AM.svg" alt="flag_rus" width="32" height="32">
+              <p>Հայ</p>
+            </a>
+            <a href="../../index.html" class="flag">
+              <img src="../../assets/svg/EN.svg" alt="flag_eng" width="32" height="32">
+              <p>ENG</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container startWithUs">
+    <div class="textSection">
+      <h1 class="headerText">Начните свой онлайн<br>успех вместе с нами</h1>
+      <p class="desctiption">
+        Мы создаём быстрые, современные и адаптированные сайты для развития вашего бизнеса,<br>
+        которые помогают расти и сохранять конкурентоспособность.
+      </p>
+      <button class="btn_stroke">
+        Начать сейчас
+        <img src="../../assets/svg/arrow-right.svg" alt="arrow-right.svg" width="20">
+      </button>
+    </div>
+    <div class="imgSection">
+      <img src="../../assets/img/mac.png" alt="mac" class="mac">
+    </div>
+  </section>
+
+  <section class="container about" id="about">
+    <h2 class="sectionHeaderText">О нас</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="../../assets/svg/keyboard-open.svg" alt="icon" width="56" height="56">
+        <p class="title">Цифровые решения</p>
+        <p class="description">
+          Мы создаём инновационные цифровые продукты для веба, мобильных устройств и облачных платформ, усиливающие рост бизнеса.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/heart.svg" alt="icon" width="56" height="56">
+        <p class="title">Наши ценности</p>
+        <p class="description">
+          Мы подходим к каждому проекту с ответственностью. Строим доверие и сотрудничество на основе честности и командного духа.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/magic-star.svg" alt="icon" width="56" height="56">
+        <p class="title">Высокое качество</p>
+        <p class="description">
+          Работаем тщательно, уделяя внимание каждой детали, обеспечивая стабильный и качественный результат.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="../../assets/svg/setting.svg" alt="icon" width="56" height="56">
+        <p class="title">Поддержка</p>
+        <p class="description">
+          Наши клиенты никогда не остаются одни — предоставляем постоянную техническую поддержку.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container team">
+    <h2 class="sectionHeaderText">Наша команда</h2>
+
+    <div class="teamMembers">
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Мери Торосян</p>
+            <p class="position">UI/UX Дизайнер</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Шушан Хабешян</p>
+            <p class="position">SMM Специалист</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Григор Саруханян</p>
+            <p class="position">Backend Разработчик</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="../../assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Сурен Хечоян</p>
+            <p class="position">Frontend Разработчик</p>
+          </div>
+          <img src="../../assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="container services">
+    <h2 class="sectionHeaderText">Наши услуги</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="../../assets/svg/Icons_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="../../assets/svg/pc_phone_large.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">UX/UI Дизайн</h3>
+          <p class="description">
+            Мы создаём интуитивные и эстетичные интерфейсы, ориентированные на пользовательский опыт и соответствующие современным трендам.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">web</p>
+          <p class="tag">app</p>
+          <p class="tag">SaaS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="../../assets/svg/message-programming_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="../../assets/svg/message-programming.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">Разработка</h3>
+          <p class="description">
+            Мы создаём быстрые, масштабируемые и безопасные веб-приложения на современных фреймворках, адаптированные под нужды вашего бизнеса.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">back-end</p>
+          <p class="tag">front-end</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="../../assets/svg/chart_big_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="../../assets/svg/chart_big.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">SEO и Аналитика</h3>
+          <p class="description">
+            Мы помогаем вашему бизнесу расти онлайн, используя умные SEO-стратегии, маркетинг на основе данных и креативные цифровые кампании.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">SEO</p>
+          <p class="tag">PPC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container portfolio">
+    <h2 class="sectionHeaderText">Наши работы</h2>
+    <p class="description">
+      Наша команда создаёт современные, впечатляющие и ориентированные на пользователя дизайны, которые дают реальный результат.
+    </p>
+
+    <div class="projects">
+
+      <a class="project" href="https://vanarent.am/" target="_blank">
+        <div class="imgSection">
+          <img src="../../assets/img/projectPreview_vanaRent.png" alt="project_preview" class="project_preview">
+          <div class="tags">
+            <div class="tag">UI/UX</div>
+          </div>
+        </div>
+        <div class="projectNameContainer">
+          <p class="projectName">Vana Rent — Дизайн сайта</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="container priceList" id="priceList">
+    <h2 class="sectionHeaderText">Наши пакеты</h2>
+
+    <div class="priceContainer">
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Начальный</h3>
+          <p class="description">Подходит для малого бизнеса и MVP</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>До 2 страниц сайта</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Базовый дизайн и структура</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Основная SEO-настройка</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Форма обратной связи</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>1 бесплатное изменение</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>1 платформа (веб или мобильная)</p>
+          </div>
+        </div>
+        <button class="btn_primary">Получить предложение</button>
+      </div>
+
+      <div class="price price_secondary">
+        <div class="priceHeader">
+          <h3 class="headerText">Бизнес</h3>
+          <p class="description">Подходит для компаний среднего размера</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>До 5 страниц динамического сайта</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Админ-панель</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Оформленная контактная страница</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Индивидуальные решения</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>1 бесплатное изменение</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle-light.svg" alt="point">
+            <p>Основная SEO-настройка</p>
+          </div>
+        </div>
+        <button class="btn_primary">Получить предложение</button>
+      </div>
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Премиум</h3>
+          <p class="description">Индивидуальные решения для крупного бизнеса</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Персональные UI/UX решения</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Основная SEO-настройка</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Автоматизация продаж</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Интеграция платёжной системы</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>3 бесплатных изменения</p>
+          </div>
+          <div class="point"><img src="../../assets/svg/tick-circle.svg" alt="point">
+            <p>Многоязычная поддержка</p>
+          </div>
+        </div>
+        <button class="btn_primary">Получить предложение</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container feedBack" id="contactUs">
+    <h2 class="headerText">Связаться с нами</h2>
+
+    <div class="content">
+      <div class="imageBox">
+        <img src="../.././assets/img/feedbackImg.png" alt="" class="image">
+      </div>
+
+      <form method="post" class="form">
+        <input type="text" name="name" placeholder="Имя" required pattern="[A-Za-zА-Яа-я]{2,}" title="Имя должно содержать только буквы и быть не короче 2 символов.">
+
+        <input type="text" name="surname" placeholder="Фамилия" required pattern="[A-Za-zА-Яа-я]{3,}" title="Фамилия должна содержать только буквы и быть не короче 3 символов.">
+
+        <input type="tel" name="phone" placeholder="Телефон" required pattern="^\+?[0-9]{8,12}$" title="Укажите корректный номер (например +79991234567 или 099123456).">
+
+        <input type="email" name="email" placeholder="Эл. почта" required title="Укажите корректный email (например example@mail.com)">
+
+        <textarea name="message" rows="15" placeholder="Сообщение" required minlength="10" title="Минимум 10 символов."></textarea>
+
+        <button type="submit" class="btn_primary submit">Отправить</button>
+        <p class="response"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="container preFooter">
+    <div class="content">
+      <div>
+        <img src="../../assets/img/phones.png" alt="phones" class="phones">
+      </div>
+      <div class="info">
+        <h3 class="headerText">Будущее веба в ваших руках</h3>
+        <p class="description">Быстрые, масштабируемые и впечатляющие сайты для вашей идеи</p>
+        <button class="btn_stroke button">
+          Начать сейчас
+          <img src="../../assets/svg/arrow-right.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class=" container footer">
+    <div class="content">
+      <div class="socialLinks">
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/facebook.svg" alt="facebook"></a>
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/Instagram.svg" alt="instagram"></a>
+        <a href="#" target="_blank"><img class="img" src="../../assets/svg/call.svg" alt="call"></a>
+      </div>
+      <div>
+        <p>©
+          <script>document.write(new Date().getFullYear())</script> Web Yan — Все права защищены
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
+
+<script src="../../js/languageSelector.js"></script>
+<script src="../../js/form.js"></script>
 
 </html>

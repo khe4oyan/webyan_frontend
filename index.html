@@ -1,13 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./styles/general.css">
+  <title>WEB YAN</title>
 </head>
+
 <body>
-  <h2>ENGLISH VERSION</h2>
-  <a href="./languages/arm/arm.html">Arm</a><br>
-  <a href="./languages/rus/rus.html">Rus</a>
+  <header class="header">
+    <div class="container">
+      <div>
+        <img src="./assets/svg/logo.svg" alt="logo" class="logo">
+      </div>
+
+      <nav class="navigation">
+        <a href="#about"><span class="title">About Us</span> <img src="/assets/svg/people.svg" class="icon"></a>
+        <a href="#priceList"><span class="title">Packages</span> <img src="/assets/svg/chart.svg" class="icon"></a>
+        <a href="#contactUs"><span class="title">Contact Us</span> <img src="/assets/svg/call_white.svg" class="icon"></a>
+      </nav>
+
+      <div class="actions">
+        <div>
+          <button class="btn_secondary">Learn More</button>
+        </div>
+        <div class="languageContainer">
+          <button class="languageSelectButton">
+            <img src="./assets/svg/EN.svg" alt="flag_arm" width="24" height="24">
+            <img src="./assets/svg/arrow-down.svg" alt="flag_arm">
+          </button>
+
+          <div class="otherLanguages hide">
+            <a href="./languages/arm/arm.html" class="flag">
+              <img src="./assets/svg/AM.svg" alt="flag_rus" width="32" height="32">
+              <p>Հայ</p>
+            </a>
+            <a href="languages/rus/rus.html" class="flag">
+              <img src="./assets/svg/RU.svg" alt="flag_eng" width="32" height="32">
+              <p>РУС</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container startWithUs">
+    <div class="textSection">
+      <h1 class="headerText">Start Your Online<br>Success With Us</h1>
+      <p class="desctiption">
+        We build fast, modern and responsive websites to grow your business,<br>
+        helping you stay competitive and move forward.
+      </p>
+      <button class="btn_stroke">
+        Start Now
+        <img src="./assets/svg/arrow-right.svg" alt="arrow-right.svg" width="20">
+      </button>
+    </div>
+    <div class="imgSection">
+      <img src="./assets/img/mac.png" alt="mac" class="mac">
+    </div>
+  </section>
+
+  <section class="container about" id="about">
+    <h2 class="sectionHeaderText">About Us</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="./assets/svg/keyboard-open.svg" alt="icon" width="56" height="56">
+        <p class="title">Digital Solutions</p>
+        <p class="description">
+          We create innovative digital products for the web, mobile devices, and cloud platforms, helping businesses grow.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/svg/heart.svg" alt="icon" width="56" height="56">
+        <p class="title">Our Values</p>
+        <p class="description">
+          We approach every project responsibly, building trust and teamwork through honesty and dedication.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/svg/magic-star.svg" alt="icon" width="56" height="56">
+        <p class="title">High Quality</p>
+        <p class="description">
+          We work meticulously, ensuring attention to every detail and delivering consistent, high-quality results.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="./assets/svg/setting.svg" alt="icon" width="56" height="56">
+        <p class="title">Support</p>
+        <p class="description">
+          Our clients are never left alone — we provide ongoing technical support.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container team">
+    <h2 class="sectionHeaderText">Our Team</h2>
+
+    <div class="teamMembers">
+      <a class="member" href="#" target="_blank">
+        <img src="./assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Meri Torosyan</p>
+            <p class="position">UI/UX Designer</p>
+          </div>
+          <img src="./assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="./assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Shushan Khabeshyan</p>
+            <p class="position">SMM Specialist</p>
+          </div>
+          <img src="./assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="./assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Grigor Sarukhanyan</p>
+            <p class="position">Backend Developer</p>
+          </div>
+          <img src="./assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+
+      <a class="member" href="#" target="_blank">
+        <img src="./assets/img/emptyImage.png" alt="main_image" class="main_image">
+        <div class="info">
+          <div class="personInfo">
+            <p class="name">Suren Hechoyan</p>
+            <p class="position">Frontend Developer</p>
+          </div>
+          <img src="./assets/svg/linkedIn.svg" alt="linkedIn">
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="container services">
+    <h2 class="sectionHeaderText">Our Services</h2>
+
+    <div class="cards">
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="./assets/svg/Icons_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="./assets/svg/pc_phone_large.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">UX/UI Design</h3>
+          <p class="description">
+            We create intuitive and visually appealing interfaces focused on user experience and modern design trends.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">web</p>
+          <p class="tag">app</p>
+          <p class="tag">SaaS</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="./assets/svg/message-programming_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="./assets/svg/message-programming.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">Development</h3>
+          <p class="description">
+            We build fast, scalable and secure web applications using modern frameworks tailored to your business needs.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">back-end</p>
+          <p class="tag">front-end</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="proffesion_icon_container">
+          <img class="proffesion_icon proffesion_icon_mobile" src="./assets/svg/chart_big_mobile.svg" alt="icon">
+          <img class="proffesion_icon" src="./assets/svg/chart_big.svg" alt="icon">
+        </div>
+        <div class="info">
+          <h3 class="headerText">SEO & Analytics</h3>
+          <p class="description">
+            We help your business grow online through smart SEO strategies, data-driven marketing and creative digital campaigns.
+          </p>
+        </div>
+        <div class="tags">
+          <p class="tag">SEO</p>
+          <p class="tag">PPC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container portfolio">
+    <h2 class="sectionHeaderText">Our Work</h2>
+    <p class="description">
+      Our team designs modern, impressive, user-focused solutions that deliver real results.
+    </p>
+
+    <div class="projects">
+
+      <a class="project" href="https://vanarent.am/" target="_blank">
+        <div class="imgSection">
+          <img src="./assets/img/projectPreview_vanaRent.png" alt="project_preview" class="project_preview">
+          <div class="tags">
+            <div class="tag">UI/UX</div>
+          </div>
+        </div>
+        <div class="projectNameContainer">
+          <p class="projectName">Vana Rent — Website Design</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="container priceList" id="priceList">
+    <h2 class="sectionHeaderText">Our Packages</h2>
+
+    <div class="priceContainer">
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Starter</h3>
+          <p class="description">Best for small businesses and MVPs</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Up to 2 website pages</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Basic design and structure</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Basic SEO setup</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Contact form</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>1 free revision</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>1 platform (web or mobile)</p>
+          </div>
+        </div>
+        <button class="btn_primary">Get a Quote</button>
+      </div>
+
+      <div class="price price_secondary">
+        <div class="priceHeader">
+          <h3 class="headerText">Business</h3>
+          <p class="description">Ideal for mid-sized companies</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>Up to 5 dynamic website pages</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>Admin panel</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>Designed contact page</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>Custom solutions</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>1 free revision</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle-light.svg" alt="point">
+            <p>Basic SEO setup</p>
+          </div>
+        </div>
+        <button class="btn_primary">Get a Quote</button>
+      </div>
+
+      <div class="price">
+        <div class="priceHeader">
+          <h3 class="headerText">Premium</h3>
+          <p class="description">Custom solutions for large businesses</p>
+        </div>
+        <div class="points">
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Personalized UI/UX solutions</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Basic SEO setup</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Sales automation</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Payment system integration</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>3 free revisions</p>
+          </div>
+          <div class="point"><img src="./assets/svg/tick-circle.svg" alt="point">
+            <p>Multilingual support</p>
+          </div>
+        </div>
+        <button class="btn_primary">Get a Quote</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container feedBack" id="contactUs">
+    <h2 class="headerText">Contact Us</h2>
+
+    <div class="content">
+      <div class="imageBox">
+        <img src="././assets/img/feedbackImg.png" alt="" class="image">
+      </div>
+
+      <form method="post" class="form">
+        <input type="text" name="name" placeholder="Name" required pattern="[A-Za-zА-Яа-я]{2,}" title="The name must contain only letters and be at least 2 characters long.">
+
+        <input type="text" name="surname" placeholder="Surname" required pattern="[A-Za-zА-Яа-я]{3,}" title="The surname must contain only letters and be at least 3 characters long.">
+
+        <input type="tel" name="phone" placeholder="Phone" required pattern="^\+?[0-9]{8,12}$" title="Enter a valid phone number (e.g. +79991234567 or 099123456).">
+
+        <input type="email" name="email" placeholder="Email" required title="Enter a valid email (e.g. example@mail.com)">
+
+        <textarea name="message" rows="15" placeholder="Message" required minlength="10" title="Minimum 10 characters."></textarea>
+
+        <button type="submit" class="btn_primary submit">Send</button>
+        <p class="response"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="container preFooter">
+    <div class="content">
+      <div>
+        <img src="./assets/img/phones.png" alt="phones" class="phones">
+      </div>
+      <div class="info">
+        <h3 class="headerText">The Future of the Web Is in Your Hands</h3>
+        <p class="description">Fast, scalable, and impressive websites for your ideas</p>
+        <button class="btn_stroke button">
+          Start Now
+          <img src="./assets/svg/arrow-right.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class=" container footer">
+    <div class="content">
+      <div class="socialLinks">
+        <a href="#" target="_blank"><img class="img" src="./assets/svg/facebook.svg" alt="facebook"></a>
+        <a href="#" target="_blank"><img class="img" src="./assets/svg/Instagram.svg" alt="instagram"></a>
+        <a href="#" target="_blank"><img class="img" src="./assets/svg/call.svg" alt="call"></a>
+      </div>
+      <div>
+        <p>©
+          <script>document.write(new Date().getFullYear())</script> Web Yan — All rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
+
+<script src="./js/languageSelector.js"></script>
+<script src="./js/form.js"></script>
+
 </html>

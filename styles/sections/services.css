@@ -19,7 +19,7 @@
       border-radius: 20px;
       gap: 10px;
       display: grid;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 193px auto;
         grid-template-areas:
           "icon description"
           "icon tags";
