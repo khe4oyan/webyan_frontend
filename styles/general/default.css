@@ -9,7 +9,8 @@ html {
   scroll-padding-top: 100px;
 }
 
-input, textarea {
+input,
+textarea {
   border: 1px solid #0000001A;
   padding: 12px 14px;
   border-radius: 20px;
@@ -37,7 +38,7 @@ button:hover {
 }
 
 /* primary */
-.btn_primary{
+.btn_primary {
   background: var(--primary_color);
   color: var(--white);
 }
@@ -49,7 +50,7 @@ button:hover {
 }
 
 /* secondary */
-.btn_secondary{
+.btn_secondary {
   background: var(--white);
   color: var(--primary_color);
 }
@@ -60,7 +61,7 @@ button:hover {
 }
 
 /* stroke */
-.btn_stroke{
+.btn_stroke {
   background: var(--white);
   color: var(--primary_color);
   border: 1px solid var(--primary_color);
@@ -79,8 +80,13 @@ button:hover {
 
 
 @media only screen and (width < 1440px) {
+  html {
+    scroll-padding-top: 150px;
+  }
+
   .container {
     max-width: 100%;
     padding: 0 16px;
   }
+
 }
