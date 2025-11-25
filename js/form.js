@@ -4,15 +4,17 @@
   form.addEventListener('submit', async (e) => {
     e.preventDefault(); // отменяем стандартную отправку (без перезагрузки)
 
-    const formData = new FormData(form);
+    const formData = Object.fromEntries(new FormData(form).entries());
 
     try {
-      const res = await fetch('/send-message', { // адрес обработчика
+      const res = await fetch('https://carparts-t0mi.onrender.com/contact', {
         method: 'POST',
-        body: formData
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
       });
 
       const responseEl = document.querySelector('.response');
+      console.log(res);
 
       if (res.ok) {
         responseEl.textContent = '✅ Thanks for message!';
