@@ -32,21 +32,6 @@
           object-fit: cover;
           border-radius: 20px;
         }
-
-        .tags {
-          position: absolute;
-          top: 20px;
-          left: 20px;
-          display: flex;
-          gap: 10px;
-
-          .tag {
-            background: var(--white);
-            padding: 14px 16px;
-            border-radius: 20px;
-            font-weight: 500;
-          }
-        }
       }
 
       .projectNameContainer {
@@ -94,10 +79,6 @@
             width: 100%;
             height: 100%;
             border-radius: 20px;
-          }
-
-          .tags {
-            display: none;
           }
         }
 
