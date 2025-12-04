@@ -19,7 +19,20 @@
       width: 100%;
       text-decoration: none;
 
-      /* .main_image {} */
+      .main_image {
+        width: 306px;
+        height: 264px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
+      &:nth-child(5) {
+        /* Shushan */
+        .main_image {
+          object-position: top center;
+        }
+      }
+
       .info {
         margin-top: 20px;
         display: flex;
@@ -61,7 +74,7 @@
       overflow-y: scroll;
 
       .member {
-        scroll-snap-align: start; 
+        scroll-snap-align: start;
       }
     }
   }
