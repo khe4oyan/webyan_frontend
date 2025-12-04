@@ -1,5 +1,11 @@
 ---
 deployment:
   tasks:
+    # Ուղղորդում դեպի public_html
     - export DEPLOY_DIR=/home2/webyan/public_html
-    - /bin/cp -r ./* $DEPLOY_DIR
+
+    # Ընտրովի՝ մաքրում ենք հին ֆայլերը (օգտագործելի, եթե ուզում ես replace անի ամեն անգամ)
+    - /bin/rm -rf $DEPLOY_DIR/*
+
+    # Copy անում ենք բոլոր ֆայլերը և պապկաները ռեպոյի root-ից դեպի public_html
+    - /bin/cp -r . $DEPLOY_DIR
