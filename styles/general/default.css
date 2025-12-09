@@ -16,7 +16,12 @@ textarea {
   border-radius: 20px;
 }
 
-button {
+.a_button {
+  width: fit-content;
+  text-decoration: none;
+}
+
+button, .a_button {
   outline: none;
   border: none;
   padding: 8px 16px;
@@ -30,7 +35,7 @@ button {
   font-size: 14px;
 }
 
-button:hover {
+button:hover, .a_button:hover {
   cursor: pointer;
 }
 
