@@ -20,6 +20,21 @@
     .btn_stroke {
       margin: auto;
       margin-top: 20px;
+
+      .svg_2 {
+        display: none;
+      }
+    }
+
+    .btn_stroke:hover {
+      .svg_1 {
+        display: none;
+      }
+
+      .svg_2{ 
+        display: block;
+      }
+      
     }
   }
 
