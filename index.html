@@ -408,9 +408,9 @@
       </div>
 
       <form method="post" class="form">
-        <input type="text" name="name" placeholder="Name" required pattern="[A-Za-zА-Яа-я]{2,}" title="The name must contain only letters and be at least 2 characters long.">
+        <input type="text" name="name" placeholder="Name" required minlength="3" title="The name must contain only letters and be at least 2 characters long.">
 
-        <input type="text" name="surname" placeholder="Surname" required pattern="[A-Za-zА-Яа-я]{3,}" title="The surname must contain only letters and be at least 3 characters long.">
+        <input type="text" name="surname" placeholder="Surname" required minlength="3" title="The surname must contain only letters and be at least 3 characters long.">
 
         <input type="tel" name="phone" placeholder="Phone" required pattern="^\+?[0-9]{8,12}$" title="Enter a valid phone number (e.g. +79991234567 or 099123456).">
 

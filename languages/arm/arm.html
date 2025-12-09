@@ -423,10 +423,10 @@
 
       <form method="post" class="form">
         <!-- Имя: только буквы, минимум 2 символа -->
-        <input type="text" name="name" placeholder="Անուն" required pattern="[A-Za-zԱ-Ֆա-ֆ]{2,}" title="Անուն պետք է պարունակի միայն տառեր և լինի առնվազն 2 նիշ։">
+        <input type="text" name="name" placeholder="Անուն" required minlength="3" title="Անուն պետք է պարունակի միայն տառեր և լինի առնվազն 2 նիշ։">
 
         <!-- Фамилия: только буквы, минимум 3 символа -->
-        <input type="text" name="surname" placeholder="Ազգանուն" required pattern="[A-Za-zԱ-Ֆա-ֆ]{3,}" title="Ազգանուն պետք է պարունակի միայն տառեր և լինի առնվազն 3 նիշ։">
+        <input type="text" name="surname" placeholder="Ազգանուն" required minlength="3" title="Ազգանուն պետք է պարունակի միայն տառեր և լինի առնվազն 3 նիշ։">
 
         <!-- Телефон: только цифры, длина 8–12 -->
         <input type="tel" name="phone" placeholder="Հեռախոսահամար" required pattern="^\+?[0-9]{8,12}$" title="Նշեք ճիշտ հեռախոսահամար (օր.՝ +37499123456 կամ 099123456)">
