@@ -39,6 +39,14 @@ button:hover, .a_button:hover {
   cursor: pointer;
 }
 
+button:disabled, button:disabled:hover {
+  color: var(--mediumGray);
+  background: none;
+  border: 1px solid var(--mediumGray);
+  box-shadow: none;
+  cursor: wait;
+}
+
 .hide {
   display: none;
 }
